@@ -608,7 +608,7 @@ article {
   p {
     @extend .default-line-height;
     @extend .margin-bottom-large;
-    text-align: left;
+    text-align: justify;
 
     a {
       text-decoration: underline;
