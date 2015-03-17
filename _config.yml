@@ -3,11 +3,11 @@
 # ----------------------- #
 
 url: http://alexshook.github.io
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: mint chocolate chip
+subtitle: more dramatic than vanilla
+author: Alex Shook
 simple_search: https://www.google.com/search
-description:
+description: The code blog of Alex Shook.
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -27,7 +27,7 @@ email:
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
 root: /
-permalink: /blog/:year/:month/:day/:title/
+permalink: /blog/:title/
 source: source
 destination: public
 plugins: plugins
