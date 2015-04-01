@@ -9,7 +9,7 @@
   <meta name="author" content="Alex Shook">
 
   
-  <meta name="description" content="All Posts Oh Hey. Somehow I completely messed up this Octopress— installed a new theme, lost half of the source files (but not master?), and moved &hellip;">
+  <meta name="description" content="All Posts Apparently You Can't Call .checked on a jQuery Object Is the .checked property not working for you? It could be because you are using a &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -80,6 +80,61 @@
 
   <div class="article-list">
     <div class="container">
+      
+      
+      <div class="row">
+        <div class="col-md-offset-3 col-md-6">
+          <article>
+  <h2><a href="/blog/cant-call-checked-on-jquery-objects/">Apparently You Can&#8217;t Call .checked on a jQuery Object</a></h2>
+  
+  <p>
+    <p>Is the <code>.checked</code> property not working for you? It could be because you are using a jQuery object. You can&rsquo;t call <code>.checked</code> on a jQuery object.</p>
+
+
+
+
+<p>Well, you can.</p>
+
+
+
+
+<p>But if you do, you will lose 25 mintues to thinking that you must have a typo somewhere, and/or that you are just doing it wrong. And at the end of the 25 minutes, you will discover that you have two options: (1) use plain old vanilla JavaScript, or (2) use jQuery&rsquo;s <code>.get()</code> to retrieve the actual DOM object.</p>
+
+
+
+
+<p>Thank the JavaScript deities for other programmers. After 25 minutes of thinking that I was taking crazy pills, <a href="http://stackoverflow.com/questions/3334935/checked-true-not-working-with-jquery-function" target="_blank">this Stack Overflow question</a> ended up saving me.</p>
+
+
+
+
+<p>I knew this newfangled jQuery library was going to be trouble right from the start&hellip;</p>
+
+
+  </p>
+  <span class="meta">
+    written 
+
+
+
+
+<time class='entry-date' datetime='2015-03-31T22:46:07-04:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>31</span><span class='date-suffix'>st</span>, <span class='date-year'>2015</span></span> <span class='time'>10:46 pm</span></time>
+    
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/javascript/'>javascript</a>
+  
+</span>
+
+
+  </span>
+
+  
+</article>
+
+        </div>
+      </div>
       
       
       <div class="row">
