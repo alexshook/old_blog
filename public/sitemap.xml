@@ -1,45 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  
   <url>
     <loc>http://alexshook.github.io/blog/cant-call-checked-on-jquery-objects/</loc>
-    
     <lastmod>2015-03-31T22:46:07-04:00</lastmod>
-    
-    <priority>0.8</priority>
   </url>
-  
   <url>
     <loc>http://alexshook.github.io/blog/oh-hey/</loc>
-    
     <lastmod>2015-03-16T23:48:15-04:00</lastmod>
-    
-    <priority>0.8</priority>
   </url>
-  
-  
+  <url>
+    <loc>http://alexshook.github.io/blog/notes-from-first-class/</loc>
+    <lastmod>2013-10-21T21:08:00-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://alexshook.github.io/categories/</loc>
+  </url>
+  <url>
+    <loc>http://alexshook.github.io/archives/</loc>
+  </url>
   <url>
     <loc>http://alexshook.github.io/</loc>
-    <lastmod>2015-03-31T23:19:29-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
   </url>
-  
-  <url>
-    <loc>http://alexshook.github.io/blog/archives/</loc>
-    <lastmod>2015-03-31T23:19:29-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
   <url>
     <loc>http://alexshook.github.io/posts/</loc>
-    <lastmod>2015-03-31T23:19:29-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
   </url>
-  
-  
-  
+  <url>
+    <loc>http://alexshook.github.io/blog/categories/general/</loc>
+  </url>
+  <url>
+    <loc>http://alexshook.github.io/blog/categories/javascript/</loc>
+  </url>
 </urlset>

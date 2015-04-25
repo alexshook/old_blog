@@ -3,11 +3,13 @@
 # ----------------------- #
 
 url: http://alexshook.github.io
-title: mint chocolate chip
-subtitle: more dramatic than vanilla
+title: Alex Shook
+subtitle: software developer + occasional photographer
 author: Alex Shook
 simple_search: https://www.google.com/search
 description: The code blog of Alex Shook.
+
+nav1: About
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in

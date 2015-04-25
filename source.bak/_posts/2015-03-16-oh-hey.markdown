@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Oh hey."
+date: 2015-03-16 23:48:15 -0400
+comments: true
+categories: general
+---
+Somehow I completely messed up this Octopress— installed a new theme, lost half of the source files (but not master?), and moved all the old posts from 2013 to a random folder. I even don’t know how that happened, but it happened.
+
+When I started this blog, it was the beginning of my first Ruby class and I clearly did not know what I was doing. A year and a half later, I hope I'm a bit wiser.
+
+And that I can keep my posts together.
+
+I thought now would probably be a good time to finally settle on a theme and get a fresh start.
+
+Hello.
