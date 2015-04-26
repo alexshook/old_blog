@@ -1,2 +1,17 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+.main-navbar {
+  text-align: center;
+}
+
+.main-navbar li {
+  font-family: $alt-font;
+  font-size: 18px;
+  letter-spacing: 5px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.main-navbar li a {
+  color: #FFF;
+}

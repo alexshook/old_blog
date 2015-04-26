@@ -7,9 +7,37 @@ title: Alex Shook
 subtitle: software developer + occasional photographer
 author: Alex Shook
 simple_search: https://www.google.com/search
-description: The code blog of Alex Shook.
+description: A code blog by Alex Shook.
 
-nav1: About
+# hpstr theme customizations
+author_bio: I’ve been writing code ever since I turned eleven and an owl didn’t deliver my Hogwarts letter. I may not have gotten a toad and a phoenix feather wand, but creating for the web is definitely magical. <a href="{{ site.url }}/about">Learn more.</a>
+
+links:
+  - title: Portfolio
+    url: /portfolio
+  - title: Contact
+    url: /contact
+  - title: Press
+    url: /press
+  - title: GitHub
+    url: https://github.com/alexshook
+    external: true
+  - title: Blog
+    url: site.url
+
+# set up image defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+      type: "posts"
+    values:
+      image:
+        feature: "/images/skyline1224.jpg"
+
+# custom navbar
+github-url: https://github.com/alexshook
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in

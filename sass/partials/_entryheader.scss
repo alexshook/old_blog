@@ -10,7 +10,6 @@
 	margin: 30px 0 0;
 	h1 {
 		margin: 10px 20px;
-		font-weight: 700;
 		@include font-rem($h1_sm_fs);
 		color: lighten($base-color,20%);
 		@media #{$medium} {
@@ -23,7 +22,6 @@
 	h2 {
 		margin: 0;
 		@include font-rem($title-date_sm_fs);
-		text-transform: uppercase;
 		color: lighten($base-color,40%);
 		@media #{$medium} {
 			@include font-rem($title-date_lg_fs);
@@ -46,7 +44,6 @@
 	}
 	h1 {
 		margin: 10px;
-		font-weight: 700;
 		margin: 10px 60px;
 		color: $white;
 		text-shadow: 1px 1px 4px rgba($base-color,0.60);
@@ -59,7 +56,6 @@
 	h2 {
 		margin: 0;
 		color: $white;
-		text-transform: uppercase;
 		@media #{$medium} {
 			a {
 				color: $white;
@@ -69,9 +65,9 @@
 }
 .entry-image {
 	position: relative;
-	top: -50%; 
-	left: -50%; 
-	width: 200%; 
+	top: -50%;
+	left: -50%;
+	width: 200%;
 	height: 200%;
 	min-height: 400px;
 	overflow: hidden;
@@ -85,12 +81,12 @@
 		background-color: rgba($base-color,0.30);
 	}
 	img {
-		position: absolute; 
-		top: 0; 
-		left: 0; 
-		right: 0; 
-		bottom: 0; 
-		margin: auto; 
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
 		min-width: 50%;
 		min-height: 50%;
 	}

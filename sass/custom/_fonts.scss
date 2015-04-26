@@ -1,17 +1,18 @@
 // Here you can easily change font faces which are used in your site.
-// To give it a try, uncomment and change some of the lines below, 
-// rebuild your blog, and see how it works. 
-// 
-// Remember: If you add web fonts, make sure to also include the @font-face 
+// To give it a try, uncomment and change some of the lines below,
+// rebuild your blog, and see how it works.
+//
+// Remember: If you add web fonts, make sure to also include the @font-face
 // directive in this file or add an appropriate <link> tag to the <head>.
 
 // Typefaces
 // ----------------------------------------------------------------------------
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+$alt-font:      'Roboto Slab', serif;
+$heading-font:  $alt-font;
 //$base-font:     'Lato', Calibri, Arial, sans-serif;
-//$heading-font:  $base-font;
 //$caption-font:  $base-font;
 //$code-font:     Menlo, Monaco, Courier New, monospace;
-//$alt-font:      serif;
 // ----------------------------------------------------------------------------
 
 // Root sizes

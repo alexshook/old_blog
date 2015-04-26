@@ -12,6 +12,7 @@ body {
 	@include clearfix();
 }
 .entry-content {
+	text-align: justify;
 	@include font-rem($p_fs);
   @include line-height($p_lh);
   @include margin-after;
@@ -63,6 +64,7 @@ body {
 #post,
 #page {
 	.entry-content {
+		text-align: justify;
 		margin: 40px 2px 20px 2px;
 		padding: 10px 15px;
 		background-color: $white;
@@ -129,7 +131,7 @@ body {
 }
 
 
-// Post Index 
+// Post Index
 // --------------------------------------------------
 #post-index {
 	#main {
@@ -185,7 +187,7 @@ body {
 .socialcount {
 	@include font-rem($socialcount_fs);
 	font-weight: 700;
-	li { 
+	li {
 		padding-left: 10px;
 		padding-right: 10px;
 	}
