@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Javascript | Alex Shook]]></title>
+  <link href="http://alexshook.github.io/blog/categories/javascript/atom.xml" rel="self"/>
+  <link href="http://alexshook.github.io/"/>
+  <updated>2015-04-25T23:27:14-04:00</updated>
+  <id>http://alexshook.github.io/</id>
+  <author>
+    <name><![CDATA[Alex Shook]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Apparently You Can't Call .checked on a jQuery Object]]></title>
+    <link href="http://alexshook.github.io/blog/cant-call-checked-on-jquery-objects/"/>
+    <updated>2015-03-31T22:46:07-04:00</updated>
+    <id>http://alexshook.github.io/blog/cant-call-checked-on-jquery-objects</id>
+    <content type="html"><![CDATA[<p>Is the <code>.checked</code> property not working for you? It could be because you are using a jQuery object. You can&rsquo;t call <code>.checked</code> on a jQuery object.</p>
+
+<p>Well, you can.</p>
+
+<p>But if you do, you will lose 25 mintues to thinking that you must have a typo somewhere, and/or that you are just doing it wrong. And at the end of the 25 minutes, you will discover that you have two options: (1) use plain old vanilla JavaScript, or (2) use jQuery&rsquo;s <code>.get()</code> to retrieve the actual DOM object.</p>
+
+<p>Thank the JavaScript deities for other programmers. After 25 minutes of thinking that I was taking crazy pills, <a href="http://stackoverflow.com/questions/3334935/checked-true-not-working-with-jquery-function" target="_blank">this Stack Overflow question</a> ended up saving me.</p>
+
+<p>I knew this newfangled jQuery library was going to be trouble right from the start&hellip;</p>
+]]></content>
+  </entry>
+  
+</feed>

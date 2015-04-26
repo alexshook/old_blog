@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: General | Alex Shook]]></title>
+  <link href="http://alexshook.github.io/blog/categories/general/atom.xml" rel="self"/>
+  <link href="http://alexshook.github.io/"/>
+  <updated>2015-04-25T23:27:14-04:00</updated>
+  <id>http://alexshook.github.io/</id>
+  <author>
+    <name><![CDATA[Alex Shook]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Oh Hey.]]></title>
+    <link href="http://alexshook.github.io/blog/oh-hey/"/>
+    <updated>2015-03-16T23:48:15-04:00</updated>
+    <id>http://alexshook.github.io/blog/oh-hey</id>
+    <content type="html"><![CDATA[<p>Somehow I completely messed up this Octopress— installed a new theme, lost half of the source files (but not master?), and moved all the old posts from 2013 to a random folder. I even don’t know how that happened, but it happened.</p>
+
+<p>When I started this blog, it was the beginning of my first Ruby class and I clearly did not know what I was doing. A year and a half later, I hope I&rsquo;m a bit wiser.</p>
+
+<p>And that I can keep my posts together.</p>
+
+<p>I thought now would probably be a good time to finally settle on a theme and get a fresh start.</p>
+
+<p>Hello.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Notes From First Class]]></title>
+    <link href="http://alexshook.github.io/blog/notes-from-first-class/"/>
+    <updated>2013-10-21T21:08:00-04:00</updated>
+    <id>http://alexshook.github.io/blog/notes-from-first-class</id>
+    <content type="html"><![CDATA[<p>Almost the end of my first BEWD class. We made a blog.</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Alex Shook]]></title>
+  <link href="http://alexshook.github.io/atom.xml" rel="self"/>
+  <link href="http://alexshook.github.io/"/>
+  <updated>2015-04-25T23:27:14-04:00</updated>
+  <id>http://alexshook.github.io/</id>
+  <author>
+    <name><![CDATA[Alex Shook]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Apparently You Can't Call .checked on a jQuery Object]]></title>
+    <link href="http://alexshook.github.io/blog/cant-call-checked-on-jquery-objects/"/>
+    <updated>2015-03-31T22:46:07-04:00</updated>
+    <id>http://alexshook.github.io/blog/cant-call-checked-on-jquery-objects</id>
+    <content type="html"><![CDATA[<p>Is the <code>.checked</code> property not working for you? It could be because you are using a jQuery object. You can&rsquo;t call <code>.checked</code> on a jQuery object.</p>
+
+<p>Well, you can.</p>
+
+<p>But if you do, you will lose 25 mintues to thinking that you must have a typo somewhere, and/or that you are just doing it wrong. And at the end of the 25 minutes, you will discover that you have two options: (1) use plain old vanilla JavaScript, or (2) use jQuery&rsquo;s <code>.get()</code> to retrieve the actual DOM object.</p>
+
+<p>Thank the JavaScript deities for other programmers. After 25 minutes of thinking that I was taking crazy pills, <a href="http://stackoverflow.com/questions/3334935/checked-true-not-working-with-jquery-function" target="_blank">this Stack Overflow question</a> ended up saving me.</p>
+
+<p>I knew this newfangled jQuery library was going to be trouble right from the start&hellip;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Oh Hey.]]></title>
+    <link href="http://alexshook.github.io/blog/oh-hey/"/>
+    <updated>2015-03-16T23:48:15-04:00</updated>
+    <id>http://alexshook.github.io/blog/oh-hey</id>
+    <content type="html"><![CDATA[<p>Somehow I completely messed up this Octopress— installed a new theme, lost half of the source files (but not master?), and moved all the old posts from 2013 to a random folder. I even don’t know how that happened, but it happened.</p>
+
+<p>When I started this blog, it was the beginning of my first Ruby class and I clearly did not know what I was doing. A year and a half later, I hope I&rsquo;m a bit wiser.</p>
+
+<p>And that I can keep my posts together.</p>
+
+<p>I thought now would probably be a good time to finally settle on a theme and get a fresh start.</p>
+
+<p>Hello.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Notes From First Class]]></title>
+    <link href="http://alexshook.github.io/blog/notes-from-first-class/"/>
+    <updated>2013-10-21T21:08:00-04:00</updated>
+    <id>http://alexshook.github.io/blog/notes-from-first-class</id>
+    <content type="html"><![CDATA[<p>Almost the end of my first BEWD class. We made a blog.</p>
+]]></content>
+  </entry>
+  
+</feed>
