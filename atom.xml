@@ -4,7 +4,7 @@
   <title><![CDATA[Alex Shook]]></title>
   <link href="http://alexshook.github.io/atom.xml" rel="self"/>
   <link href="http://alexshook.github.io/"/>
-  <updated>2015-04-25T23:27:14-04:00</updated>
+  <updated>2015-04-30T00:13:04-04:00</updated>
   <id>http://alexshook.github.io/</id>
   <author>
     <name><![CDATA[Alex Shook]]></name>
@@ -12,6 +12,97 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Learn Ruby the Hard Way (Again)]]></title>
+    <link href="http://alexshook.github.io/blog/learn-ruby-the-hard-way-again/"/>
+    <updated>2015-04-29T23:27:15-04:00</updated>
+    <id>http://alexshook.github.io/blog/learn-ruby-the-hard-way-again</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s been more than a year since I last did <a href="http://learnrubythehardway.org/book/">Learn Ruby the Hard Way</a>. Now that Ruby is at version 2.2, I&rsquo;ve been thinking that it&rsquo;s probably a good time for a basics refresher. I only got through Exercise 34 or so before WDI started, and I remember it being one of the more difficult beginning Ruby things that I did.</p>
+
+<p>It&rsquo;s really interesting to see how I look at things now compared to 1+ years ago. <!-- more --></p>
+
+<p>I started off with <a href="http://learnrubythehardway.org/book/ex1.html">Exercise 1</a>, which is pretty basic. All you do in Exercise 1 is <code>puts</code> a bunch of strings. I predicted that I would move through the early exercises quickly.</p>
+
+<p>I haven&rsquo;t. I completed Exercise 1 on Monday and haven&rsquo;t even gotten to Exercise 2 yet. While I was putsing the Exercise 1 strings, I started thinking about what C actually has to do to give us something as nice as typing <code>puts 'Hello!'</code> to get <code>Hello!</code> to appear in the console.</p>
+
+<p>Compared to Java&rsquo;s <code>public class blah blah System.out.println</code> or even PHP&rsquo;s <code>echo</code> (which I always thought was vaguely unclear), <code>puts</code> is fantastically beautiful. And I never cared about it at all until now.</p>
+
+<p>Where does it come from? How does it do what it does?</p>
+
+<p>Puts is a kernel method, and it&rsquo;s <a href="http://ruby-doc.org/core-2.2.2/IO.html#method-i-puts">listed in I/O</a> in the Ruby documentation. Until I read the documentation, I never knew you <code>puts</code> like this:</p>
+
+<p><code>puts("this", "is", "a", "test")</code></p>
+
+<p>with strings separated by commas. I can&rsquo;t think of anything I&rsquo;d ever want to use that for, but it&rsquo;s still interesting. Things got even more interesting when I took a look at the source code. Here&rsquo;s what C does when you <code>puts</code> in Ruby:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>           VALUE
+</span><span class='line'>rb_io_puts(int argc, const VALUE *argv, VALUE out)
+</span><span class='line'>{
+</span><span class='line'>int i;
+</span><span class='line'>VALUE line;
+</span><span class='line'>
+</span><span class='line'>/* if no argument given, print newline. */
+</span><span class='line'>if (argc == 0) {
+</span><span class='line'>    rb_io_write(out, rb_default_rs);
+</span><span class='line'>    return Qnil;
+</span><span class='line'>}
+</span><span class='line'>for (i=0; i&lt;argc; i++) {
+</span><span class='line'>    if (RB_TYPE_P(argv[i], T_STRING)) {
+</span><span class='line'>        line = argv[i];
+</span><span class='line'>        goto string;
+</span><span class='line'>    }
+</span><span class='line'>    if (rb_exec_recursive(io_puts_ary, argv[i], out)) {
+</span><span class='line'>        continue;
+</span><span class='line'>    }
+</span><span class='line'>    line = rb_obj_as_string(argv[i]);
+</span><span class='line'>  string:
+</span><span class='line'>    rb_io_write(out, line);
+</span><span class='line'>    if (RSTRING_LEN(line) == 0 ||
+</span><span class='line'>        !str_end_with_asciichar(line, '\n')) {
+</span><span class='line'>        rb_io_write(out, rb_default_rs);
+</span><span class='line'>    }
+</span><span class='line'>}
+</span><span class='line'>
+</span><span class='line'>return Qnil;
+</span><span class='line'>}</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Looks kind of crazy. I think I got about 50% of that post-Google, and that&rsquo;s probably on the optimistic side. I did learn that a <code>Qnil</code> is the C constant for Ruby&rsquo;s nil value. That might come in handy if I ever gen ambitions and want to write an extension.</p>
+
+<p>I was going to start <a href="http://c.learncodethehardway.org/book/">Learn C the Hard Way</a> after I finished with Ruby, but instead I think I&rsquo;m going to start right away.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Apparently You Can't Call .checked on a jQuery Object]]></title>
