@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Learn Ruby the Hard Way | Alex Shook]]></title>
   <link href="http://alexshook.github.io/blog/categories/learn-ruby-the-hard-way/atom.xml" rel="self"/>
   <link href="http://alexshook.github.io/"/>
-  <updated>2015-04-30T09:17:10-04:00</updated>
+  <updated>2015-04-30T09:17:11-04:00</updated>
   <id>http://alexshook.github.io/</id>
   <author>
     <name><![CDATA[Alex Shook]]></name>
@@ -68,7 +68,7 @@ rb_io_puts(int argc, const VALUE *argv, VALUE out)
 }
 </code></pre>
 
-<p>Looks kind of crazy. I think I got about 50% of that post-Google, and that&rsquo;s probably on the optimistic side. I did learn that a <code>Qnil</code> is the C constant for Ruby&rsquo;s nil value. That might come in handy if I ever gen ambitions and want to write an extension.</p>
+<p>Looks kind of crazy. I think I got about 50% of that post-Google, and that&rsquo;s probably on the optimistic side. I did learn that a <code>Qnil</code> is the C constant for Ruby&rsquo;s nil value. That might come in handy if I ever get ambitious and want to write an extension.</p>
 
 <p>I was going to start <a href="http://c.learncodethehardway.org/book/">Learn C the Hard Way</a> after I finished with Ruby, but instead I think I&rsquo;m going to start right away.</p>
 ]]></content>
