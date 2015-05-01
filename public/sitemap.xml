@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://alexshook.github.io/blog/learn-ruby-the-hard-way-again/</loc>
+    <lastmod>2015-04-29T23:27:15-04:00</lastmod>
+  </url>
+  <url>
     <loc>http://alexshook.github.io/blog/cant-call-checked-on-jquery-objects/</loc>
     <lastmod>2015-03-31T22:46:07-04:00</lastmod>
   </url>
@@ -41,5 +45,11 @@
   </url>
   <url>
     <loc>http://alexshook.github.io/blog/categories/javascript/</loc>
+  </url>
+  <url>
+    <loc>http://alexshook.github.io/blog/categories/ruby/</loc>
+  </url>
+  <url>
+    <loc>http://alexshook.github.io/blog/categories/learn-ruby-the-hard-way/</loc>
   </url>
 </urlset>
