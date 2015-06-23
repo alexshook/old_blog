@@ -4,7 +4,7 @@
   <title><![CDATA[Alex Shook]]></title>
   <link href="http://alexshook.github.io/atom.xml" rel="self"/>
   <link href="http://alexshook.github.io/"/>
-  <updated>2015-04-30T21:47:43-04:00</updated>
+  <updated>2015-06-22T23:16:03-04:00</updated>
   <id>http://alexshook.github.io/</id>
   <author>
     <name><![CDATA[Alex Shook]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[jQuery Objects + Native DOM Objects]]></title>
+    <link href="http://alexshook.github.io/blog/jquery-objects-plus-native-dom-objects/"/>
+    <updated>2015-06-22T22:20:04-04:00</updated>
+    <id>http://alexshook.github.io/blog/jquery-objects-plus-native-dom-objects</id>
+    <content type="html"><![CDATA[<p>Lately I&rsquo;ve found myself needing to do quite a bit of CoffeeScript. For some reason, whenever I work in CoffeeScript it&rsquo;s much more difficult for me to keep track of what’s a jQuery object and what’s a native DOM object.</p>
+
+<p>I have a strong preference for vanilla JavaScript, but I need the jQuery API and am always trying to call it on native DOM objects. I&rsquo;m constantly swapping objects with things like <code>$list = $(list)</code>, too.</p>
+
+<p>Guess I need to work on that.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Learn Ruby the Hard Way (Again)]]></title>
