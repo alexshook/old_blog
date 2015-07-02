@@ -21,13 +21,13 @@
     <lastmod>2013-10-21T21:08:00-04:00</lastmod>
   </url>
   <url>
-    <loc>http://alexshook.com/categories/</loc>
+    <loc>http://alexshook.com/blog/</loc>
   </url>
   <url>
     <loc>http://alexshook.com/archives/</loc>
   </url>
   <url>
-    <loc>http://alexshook.com/</loc>
+    <loc>http://alexshook.com/categories/</loc>
   </url>
   <url>
     <loc>http://alexshook.com/contact/</loc>
@@ -36,10 +36,13 @@
     <loc>http://alexshook.com/about/</loc>
   </url>
   <url>
-    <loc>http://alexshook.com/portfolio/</loc>
+    <loc>http://alexshook.com/</loc>
   </url>
   <url>
     <loc>http://alexshook.com/press/</loc>
+  </url>
+  <url>
+    <loc>http://alexshook.com/portfolio/</loc>
   </url>
   <url>
     <loc>http://alexshook.com/posts/</loc>

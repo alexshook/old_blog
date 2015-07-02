@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Learn Ruby the Hard Way | Hi! I'm Alex.]]></title>
+  <title><![CDATA[Category: Learn Ruby the Hard Way | Alex Shook]]></title>
   <link href="http://alexshook.com/blog/categories/learn-ruby-the-hard-way/atom.xml" rel="self"/>
   <link href="http://alexshook.com/"/>
-  <updated>2015-07-01T21:48:10-04:00</updated>
+  <updated>2015-07-01T22:55:28-04:00</updated>
   <id>http://alexshook.com/</id>
   <author>
     <name><![CDATA[Alex Shook]]></name>
