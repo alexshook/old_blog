@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: General | Alex Shook]]></title>
-  <link href="http://alexshook.github.io/blog/categories/general/atom.xml" rel="self"/>
-  <link href="http://alexshook.github.io/"/>
-  <updated>2015-06-22T23:16:03-04:00</updated>
-  <id>http://alexshook.github.io/</id>
+  <title><![CDATA[Category: General | Hi! I'm Alex.]]></title>
+  <link href="http://alexshook.com/blog/categories/general/atom.xml" rel="self"/>
+  <link href="http://alexshook.com/"/>
+  <updated>2015-07-01T21:48:10-04:00</updated>
+  <id>http://alexshook.com/</id>
   <author>
     <name><![CDATA[Alex Shook]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Oh Hey.]]></title>
-    <link href="http://alexshook.github.io/blog/oh-hey/"/>
+    <link href="http://alexshook.com/blog/oh-hey/"/>
     <updated>2015-03-16T23:48:15-04:00</updated>
-    <id>http://alexshook.github.io/blog/oh-hey</id>
+    <id>http://alexshook.com/blog/oh-hey</id>
     <content type="html"><![CDATA[<p>Somehow I completely messed up this Octopress— installed a new theme, lost half of the source files (but not master?), and moved all the old posts from 2013 to a random folder. I even don’t know how that happened, but it happened.</p>
 
 <p>When I started this blog, it was the beginning of my first Ruby class and I clearly did not know what I was doing. A year and a half later, I hope I&rsquo;m a bit wiser.</p>
@@ -32,9 +32,9 @@
   
   <entry>
     <title type="html"><![CDATA[Notes From First Class]]></title>
-    <link href="http://alexshook.github.io/blog/notes-from-first-class/"/>
+    <link href="http://alexshook.com/blog/notes-from-first-class/"/>
     <updated>2013-10-21T21:08:00-04:00</updated>
-    <id>http://alexshook.github.io/blog/notes-from-first-class</id>
+    <id>http://alexshook.com/blog/notes-from-first-class</id>
     <content type="html"><![CDATA[<p>Almost the end of my first BEWD class. We made a blog.</p>
 ]]></content>
   </entry>

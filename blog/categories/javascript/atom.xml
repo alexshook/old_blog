@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Javascript | Alex Shook]]></title>
-  <link href="http://alexshook.github.io/blog/categories/javascript/atom.xml" rel="self"/>
-  <link href="http://alexshook.github.io/"/>
-  <updated>2015-06-22T23:16:03-04:00</updated>
-  <id>http://alexshook.github.io/</id>
+  <title><![CDATA[Category: Javascript | Hi! I'm Alex.]]></title>
+  <link href="http://alexshook.com/blog/categories/javascript/atom.xml" rel="self"/>
+  <link href="http://alexshook.com/"/>
+  <updated>2015-07-01T21:48:10-04:00</updated>
+  <id>http://alexshook.com/</id>
   <author>
     <name><![CDATA[Alex Shook]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[jQuery Objects + Native DOM Objects]]></title>
-    <link href="http://alexshook.github.io/blog/jquery-objects-plus-native-dom-objects/"/>
+    <link href="http://alexshook.com/blog/jquery-objects-plus-native-dom-objects/"/>
     <updated>2015-06-22T22:20:04-04:00</updated>
-    <id>http://alexshook.github.io/blog/jquery-objects-plus-native-dom-objects</id>
+    <id>http://alexshook.com/blog/jquery-objects-plus-native-dom-objects</id>
     <content type="html"><![CDATA[<p>Lately I&rsquo;ve found myself needing to do quite a bit of CoffeeScript. For some reason, whenever I work in CoffeeScript it&rsquo;s much more difficult for me to keep track of what’s a jQuery object and what’s a native DOM object.</p>
 
 <p>I have a strong preference for vanilla JavaScript, but I need the jQuery API and am always trying to call it on native DOM objects. I&rsquo;m constantly swapping objects with things like <code>$list = $(list)</code>, too.</p>
@@ -28,9 +28,9 @@
   
   <entry>
     <title type="html"><![CDATA[Apparently You Can't Call .checked on a jQuery Object]]></title>
-    <link href="http://alexshook.github.io/blog/cant-call-checked-on-jquery-objects/"/>
+    <link href="http://alexshook.com/blog/cant-call-checked-on-jquery-objects/"/>
     <updated>2015-03-31T22:46:07-04:00</updated>
-    <id>http://alexshook.github.io/blog/cant-call-checked-on-jquery-objects</id>
+    <id>http://alexshook.com/blog/cant-call-checked-on-jquery-objects</id>
     <content type="html"><![CDATA[<p>Is the <code>.checked</code> property not working for you? It could be because you are using a jQuery object. You can&rsquo;t call <code>.checked</code> on a jQuery object.</p>
 
 <p>Well, you can.</p>
