@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Learn Ruby the Hard Way | Alex Shook]]></title>
-  <link href="http://alexshook.github.io/blog/categories/learn-ruby-the-hard-way/atom.xml" rel="self"/>
-  <link href="http://alexshook.github.io/"/>
-  <updated>2015-06-22T23:16:03-04:00</updated>
-  <id>http://alexshook.github.io/</id>
+  <link href="http://alexshook.com/blog/categories/learn-ruby-the-hard-way/atom.xml" rel="self"/>
+  <link href="http://alexshook.com/"/>
+  <updated>2015-07-01T22:55:28-04:00</updated>
+  <id>http://alexshook.com/</id>
   <author>
     <name><![CDATA[Alex Shook]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Learn Ruby the Hard Way (Again)]]></title>
-    <link href="http://alexshook.github.io/blog/learn-ruby-the-hard-way-again/"/>
+    <link href="http://alexshook.com/blog/learn-ruby-the-hard-way-again/"/>
     <updated>2015-04-29T23:27:15-04:00</updated>
-    <id>http://alexshook.github.io/blog/learn-ruby-the-hard-way-again</id>
+    <id>http://alexshook.com/blog/learn-ruby-the-hard-way-again</id>
     <content type="html"><![CDATA[<p>It&rsquo;s been more than a year since I last did <a href="http://learnrubythehardway.org/book/">Learn Ruby the Hard Way</a>. Now that Ruby is at version 2.2, I&rsquo;ve been thinking that it&rsquo;s probably a good time for a basics refresher. I only got through Exercise 34 or so before WDI started, and I remember it being one of the more difficult beginning Ruby things that I did.</p>
 
 <p>It&rsquo;s really interesting to see how I look at things now compared to 1+ years ago. <!-- more --></p>

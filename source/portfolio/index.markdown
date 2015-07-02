@@ -8,6 +8,10 @@ footer: true
 image:
   feature: /images/skyline1224.jpg
 ---
+# Portfolio
+
+---
+
 ## Apps
 
 ### <a href="http://photidian.herokuapp.com/" target="_blank">Photidian</a> // <a href="https://github.com/alexshook/photidian" target="_blank">on GitHub</a>
@@ -27,6 +31,7 @@ Analyzing songs with the Echo Nest API and displaying the results visually. Buil
 
 Rails 4 | Backbone.js | JavaScript | jQuery | Echo Nest API | PostgreSQL | HTML5 | CSS
 
+---
 
 ## Open Source Contributions
 

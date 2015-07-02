@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://alexshook.github.io
+url: http://alexshook.com
 title: Alex Shook
 subtitle:
 author: Alex Shook
@@ -10,7 +10,7 @@ simple_search: https://www.google.com/search
 description: A code blog by Alex Shook.
 
 # hpstr theme customizations
-author_bio: I’ve been writing code ever since I turned eleven and an owl didn’t deliver my Hogwarts letter. I may not have gotten a toad and a phoenix feather wand, but creating for the web is definitely magical. <a href="{{ site.url }}/about">Learn more.</a>
+author_bio: I’ve been writing code ever since I turned eleven and an owl didn’t deliver my Hogwarts letter. I may not have gotten a toad and a phoenix feather wand, but creating for the web is definitely magical.
 
 links:
   - title: Portfolio
@@ -22,6 +22,8 @@ links:
   - title: GitHub
     url: https://github.com/alexshook
     external: true
+  - title: Blog
+    url: /blog
 
 # set up image defaults
 defaults:
