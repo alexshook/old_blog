@@ -2,7 +2,7 @@
 layout: page
 title: "Contact"
 date: 2015-04-25 19:02
-comments: true
+comments: false
 sharing: true
 footer: true
 image:

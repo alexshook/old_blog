@@ -2,7 +2,7 @@
 layout: page
 title: "Portfolio"
 date: 2015-04-25 18:55
-comments: true
+comments: false
 sharing: true
 footer: true
 image:
