@@ -13,5 +13,13 @@
 }
 
 .main-navbar li a {
-  color: #FFF;
+  color: #555;
+}
+
+.header-title-wrap {
+  letter-spacing: 5px;
+  h2 {
+    font-size: 22px;
+    letter-spacing: inherit;
+  }
 }

@@ -63,9 +63,10 @@ body {
 // Colors
 // ----------------------------------------------------------------------------
 $base-color				: #222 !default;
-$body-color      	: #e8e8e8 !default;
+// $body-color       : #e8e8e8 !default;
+$body-color      	: #FFF !default;
 $text-color      	: #222 !default;
-$comp-color 	 		: adjust-hue($base-color, 180) !default; 
+$comp-color 	 		: adjust-hue($base-color, 180) !default;
 $border-color    	: lighten($base-color,60) !default;
 $white           	: #fff !default;
 $black           	: #000 !default;
