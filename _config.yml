@@ -34,7 +34,7 @@ defaults:
       type: "posts"
     values:
       image:
-        feature: "/images/skyline1224.jpg"
+        feature:
 
 # custom navbar
 github-url: https://github.com/alexshook

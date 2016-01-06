@@ -6,7 +6,7 @@ comments: false
 sharing: true
 footer: true
 image:
-  feature: /images/skyline1224.jpg
+  feature:
 ---
 Hello! I'm Alex. I'm a software developer working in New York City.
 

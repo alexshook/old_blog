@@ -6,7 +6,7 @@ comments: false
 sharing: true
 footer: true
 image:
-  feature: /images/skyline1224.jpg
+  feature:
 ---
 # Press
 
