@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://alexshook.com/blog/rspec-1-dot-x-for-rails-2/</loc>
-    <lastmod>2015-07-23T18:00:14-04:00</lastmod>
-  </url>
-  <url>
     <loc>http://alexshook.com/blog/jquery-objects-plus-native-dom-objects/</loc>
     <lastmod>2015-06-22T22:20:04-04:00</lastmod>
   </url>
@@ -25,13 +21,13 @@
     <lastmod>2013-10-21T21:08:00-04:00</lastmod>
   </url>
   <url>
-    <loc>http://alexshook.com/blog/</loc>
+    <loc>http://alexshook.com/archives/</loc>
   </url>
   <url>
     <loc>http://alexshook.com/blog/archives/</loc>
   </url>
   <url>
-    <loc>http://alexshook.com/archives/</loc>
+    <loc>http://alexshook.com/blog/</loc>
   </url>
   <url>
     <loc>http://alexshook.com/categories/</loc>
@@ -49,13 +45,13 @@
     <loc>http://alexshook.com/blog/categories/</loc>
   </url>
   <url>
-    <loc>http://alexshook.com/</loc>
-  </url>
-  <url>
     <loc>http://alexshook.com/press/</loc>
   </url>
   <url>
-    <loc>http://alexshook.com/portfolio/</loc>
+    <loc>http://alexshook.com/projects/</loc>
+  </url>
+  <url>
+    <loc>http://alexshook.com/</loc>
   </url>
   <url>
     <loc>http://alexshook.com/posts/</loc>

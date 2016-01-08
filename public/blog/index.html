@@ -109,10 +109,10 @@
     <div class="header-title">
       <div class="header-title-wrap">
         <h1>Alex Shook</h1>
-        <h2>software developer + occasional photographer</h2>
+        <h2>software developer + occasional writer</h2>
         <ul class="main-navbar">
   <li><a href="/">Home</a></li>
-  <li><a href="/portfolio">Portfolio</a></li>
+  <li><a href="/projects">Projects</a></li>
   <li><a href="/contact">Contact</a></li>
   <li><a href="/press">Press</a></li>
   <li><a href="https://github.com/alexshook">GitHub</a></li>
@@ -126,90 +126,6 @@
 
   <div id="main" role="main">
     
-
-<article class="hentry">
-  
-
-
-
-<header>
-  <div class="entry-meta">
-    <span class="entry-date date published updated">
-      <time datetime="2015-07-23T18:00:14-04:00">
-        <a href="/blog/rspec-1-dot-x-for-rails-2/">July 23, 2015</a>
-      </time>
-    </span>
-    <span class="author vcard">
-      <span class="fn">
-        <a href="" title="About Alex Shook">Alex Shook</a>
-      </span>
-    </span>
-    
-      &nbsp; &bull; &nbsp;<span class="entry-comments">
-        <a href="/blog/rspec-1-dot-x-for-rails-2/#disqus_thread">Comment</a>
-      </span>
-    
-  </div><!-- /.entry-meta -->
-  
-    <h1 class="entry-title">
-      <a href="/blog/rspec-1-dot-x-for-rails-2/" rel="bookmark" title="Rspec 1.x for Rails 2" itemprop="url">Rspec 1.x for Rails 2</a>
-    </h1>
-  
-</header>
-
-<div class="entry-content">
-  <p>Nothing against Minitest, but I&rsquo;ve been a fan of Factory Girl since I got more serious about testing with Rspec.</p>
-
-<p>I believe 1.3.x is the last available minor version for Rspec 1.x.</p>
-
-<p>Gemfile:
-gem &ldquo;rspec&rdquo;, &ldquo;1.3.0&rdquo;
-gem &ldquo;rspec-rails&rdquo;, &ldquo;1.3.2”</p>
-
-<p>or plugin if you prefer that.</p>
-
-<p>Once you have your gems or plugins, run this:</p>
-
-<p>ruby script/generate rspec</p>
-
-<p>I told it to overwrite the file. It’s a safe bet if you don’t actually have any tests. (Well I think there are some Rails built-in, but I could never get those to work).</p>
-
-<p>  exists lib/tasks
-  create lib/tasks/rspec.rake
-  create script/autospec
-overwrite script/spec? (enter &ldquo;h&rdquo; for help) [Ynaqdh] Y
-  force script/spec
-  create spec
-  create spec/rcov.opts
-  create spec/spec.opts
-  create spec/spec_helper.rb</p>
-
-<p>Run script/generate &ndash;help if you want to verify that all your rspec generators got where they were supposed to.</p>
-
-<p>The command to run tests is not rspec. it’s also not bundle exec rspec, bundle exec spec, or spec. it’s rake spec, and if it runs and produces no output, you’re in the clear.</p>
-
-<p>If if runs and tell you your test database creation is totally messed up, run a migration and un mess it up. Table columns with varchar(0) will probably fail. (I don’t even know how those got in there).</p>
-
-<p>now to figure out the syntax…
-<a href="https://www.relishapp.com/rspec/rspec-rails/docs/upgrade/from-1x-to-2x">https://www.relishapp.com/rspec/rspec-rails/docs/upgrade/from-1x-to-2x</a></p>
-
-<p><a href="http://rspec.info/blog/2012/06/rspecs-new-expectation-syntax/">http://rspec.info/blog/2012/06/rspecs-new-expectation-syntax/</a></p>
-
-<p>this would not have been possible without these links:
-the rspec-rails 1.x repo for rails 2 - <a href="https://github.com/dchelimsky/rspec-rails">https://github.com/dchelimsky/rspec-rails</a>
-general rspec info (though mostly rails 3 i think) - <a href="https://github.com/dchelimsky/rspec/wiki/config.gem-%28for-Rails%29">https://github.com/dchelimsky/rspec/wiki/config.gem-%28for-Rails%29</a>
-basic spec wiki - <a href="https://github.com/dchelimsky/rspec/wiki/rails">https://github.com/dchelimsky/rspec/wiki/rails</a>
-how i figured out you are supposed to call it with spec and not rspec - <a href="http://stackoverflow.com/questions/6215571/no-such-file-to-load-rspec-matchers-rspec-rails-shoulda-cucumber-factory">http://stackoverflow.com/questions/6215571/no-such-file-to-load-rspec-matchers-rspec-rails-shoulda-cucumber-factory</a></p>
-
-  
-  
-</div><!-- /.entry-content -->
-
-
-
-
-
-</article><!-- /.hentry -->
 
 <article class="hentry">
   

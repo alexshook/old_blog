@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Portfolio"
+title: "Projects"
 date: 2015-04-25 18:55
 comments: false
 sharing: true
@@ -8,11 +8,9 @@ footer: true
 image:
   feature:
 ---
-# Portfolio
+# Projects
 
 ---
-
-## Apps
 
 ### <a href="http://photidian.herokuapp.com/" target="_blank">Photidian</a> // <a href="https://github.com/alexshook/photidian" target="_blank">on GitHub</a>
 
