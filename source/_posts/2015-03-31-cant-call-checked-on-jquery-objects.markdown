@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Apparently You Can't Call .checked On a jQuery Object"
+title: "You Can't Call .checked On a jQuery Object"
 date: 2015-03-31 22:46:07 -0400
 comments: true
 categories: javascript

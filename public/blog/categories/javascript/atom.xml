@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Javascript | Alex Shook]]></title>
   <link href="http://alexshook.com/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://alexshook.com/"/>
-  <updated>2016-01-07T19:55:30-05:00</updated>
+  <updated>2016-01-07T20:31:06-05:00</updated>
   <id>http://alexshook.com/</id>
   <author>
     <name><![CDATA[Alex Shook]]></name>
@@ -27,7 +27,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Apparently You Can't Call .checked on a jQuery Object]]></title>
+    <title type="html"><![CDATA[You Can't Call .checked on a jQuery Object]]></title>
     <link href="http://alexshook.com/blog/cant-call-checked-on-jquery-objects/"/>
     <updated>2015-03-31T22:46:07-04:00</updated>
     <id>http://alexshook.com/blog/cant-call-checked-on-jquery-objects</id>
