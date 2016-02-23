@@ -4,7 +4,7 @@
   <title><![CDATA[Alex Shook]]></title>
   <link href="http://alexshook.com/atom.xml" rel="self"/>
   <link href="http://alexshook.com/"/>
-  <updated>2016-01-07T20:28:33-05:00</updated>
+  <updated>2016-02-22T23:52:50-05:00</updated>
   <id>http://alexshook.com/</id>
   <author>
     <name><![CDATA[Alex Shook]]></name>
@@ -12,6 +12,66 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Learn Ruby the Hard Way Ex. 6]]></title>
+    <link href="http://alexshook.com/blog/learn-ruby-ex-6/"/>
+    <updated>2016-02-22T23:35:19-05:00</updated>
+    <id>http://alexshook.com/blog/learn-ruby-ex-6</id>
+    <content type="html"><![CDATA[<p>Totally not getting through <a href="http://learnrubythehardway.org/book/">Learn Ruby the Hard Way</a> with any kind of efficiency. I&rsquo;ve thought about skipping up to exercise 45 a million times, but that would be cheating.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">puts</span> <span class="s2">&quot;ex 6&quot;</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">types_of_people</span> <span class="o">=</span> <span class="mi">10</span>
+</span><span class='line'><span class="n">x</span> <span class="o">=</span> <span class="s2">&quot;There are </span><span class="si">#{</span><span class="n">types_of_people</span><span class="si">}</span><span class="s2"> types of people.&quot;</span>
+</span><span class='line'><span class="n">binary</span> <span class="o">=</span> <span class="s2">&quot;binary&quot;</span>
+</span><span class='line'><span class="n">do_not</span> <span class="o">=</span> <span class="s2">&quot;don&#39;t&quot;</span>
+</span><span class='line'><span class="n">y</span> <span class="o">=</span> <span class="s2">&quot;Those who know </span><span class="si">#{</span><span class="n">binary</span><span class="si">}</span><span class="s2"> and those who </span><span class="si">#{</span><span class="n">do_not</span><span class="si">}</span><span class="s2">&quot;</span>
+</span><span class='line'>
+</span><span class='line'><span class="nb">puts</span> <span class="n">x</span>
+</span><span class='line'><span class="nb">puts</span> <span class="n">y</span>
+</span><span class='line'>
+</span><span class='line'><span class="nb">puts</span> <span class="s2">&quot;I said: </span><span class="si">#{</span><span class="n">x</span><span class="si">}</span><span class="s2">.&quot;</span>
+</span><span class='line'><span class="nb">puts</span> <span class="s2">&quot;I also said: &#39;</span><span class="si">#{</span><span class="n">y</span><span class="si">}</span><span class="s2">&#39;.&quot;</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">hilarious</span> <span class="o">=</span> <span class="kp">false</span>
+</span><span class='line'><span class="n">joke_evaluation</span> <span class="o">=</span> <span class="s2">&quot;Isn&#39;t that joke so funny? </span><span class="si">#{</span><span class="n">hilarious</span><span class="si">}</span><span class="s2">&quot;</span>
+</span><span class='line'>
+</span><span class='line'><span class="nb">puts</span> <span class="n">joke_evaluation</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">w</span> <span class="o">=</span> <span class="s2">&quot;This is the left side of...&quot;</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">e</span> <span class="o">=</span> <span class="s2">&quot;a string with a right side.&quot;</span>
+</span><span class='line'>
+</span><span class='line'><span class="nb">puts</span> <span class="n">w</span> <span class="o">+</span> <span class="n">e</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Learn Ruby the Hard Way Ex. 1-5]]></title>

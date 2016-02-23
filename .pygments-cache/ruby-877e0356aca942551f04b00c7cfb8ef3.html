@@ -1,0 +1,78 @@
+<div class="highlight"><pre><span class="nb">puts</span> <span class="s2">&quot;ex 1&quot;</span>
+
+<span class="nb">puts</span> <span class="s2">&quot;Hello World!&quot;</span>
+<span class="nb">puts</span> <span class="s2">&quot;Hello Again&quot;</span>
+<span class="nb">puts</span> <span class="s2">&quot;I like typing this.&quot;</span>
+<span class="nb">puts</span> <span class="s2">&quot;This is fun.&quot;</span>
+<span class="nb">puts</span> <span class="s1">&#39;Yay! Printing.&#39;</span>
+<span class="nb">puts</span> <span class="s2">&quot;I&#39;d much rather you &#39;not&#39;.&quot;</span>
+<span class="nb">puts</span> <span class="s1">&#39;I &quot;said&quot; do not touch this.&#39;</span>
+
+<span class="nb">puts</span> <span class="s2">&quot;ex 2&quot;</span>
+
+<span class="nb">puts</span> <span class="s2">&quot;I could have code like this.&quot;</span> <span class="c1"># and the comment after is ignored.</span>
+<span class="nb">puts</span> <span class="s2">&quot;This will run.&quot;</span>
+
+<span class="nb">puts</span> <span class="s2">&quot;ex 3&quot;</span>
+
+<span class="nb">puts</span> <span class="s2">&quot;I will now count my chickents:&quot;</span>
+
+<span class="nb">puts</span> <span class="s2">&quot;Hens&quot;</span><span class="p">,</span> <span class="mi">25</span> <span class="o">+</span> <span class="mi">30</span> <span class="o">/</span> <span class="mi">6</span>
+<span class="nb">puts</span> <span class="s2">&quot;Roosters&quot;</span><span class="p">,</span> <span class="mi">100</span> <span class="o">-</span> <span class="mi">25</span> <span class="o">*</span><span class="mi">3</span> <span class="o">%</span> <span class="mi">4</span>
+
+<span class="nb">puts</span> <span class="s2">&quot;Now I will count the eggs:&quot;</span>
+
+<span class="nb">puts</span> <span class="mi">3</span> <span class="o">+</span> <span class="mi">2</span> <span class="o">+</span> <span class="mi">1</span> <span class="o">-</span> <span class="mi">5</span> <span class="o">+</span> <span class="mi">4</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">-</span> <span class="mi">1</span> <span class="o">/</span> <span class="mi">4</span> <span class="o">+</span> <span class="mi">6</span>
+
+<span class="nb">puts</span> <span class="s2">&quot;Is it true that 3 + 2 &lt; 5 - 7?&quot;</span>
+
+<span class="nb">puts</span> <span class="mi">3</span> <span class="o">+</span> <span class="mi">2</span> <span class="o">&lt;</span> <span class="mi">5</span> <span class="o">-</span> <span class="mi">7</span>
+
+<span class="nb">puts</span> <span class="s2">&quot;What is 3 + 2?&quot;</span><span class="p">,</span> <span class="mi">3</span> <span class="o">+</span> <span class="mi">2</span>
+<span class="nb">puts</span> <span class="s2">&quot;What is 5 - 7?&quot;</span><span class="p">,</span> <span class="mi">5</span> <span class="o">-</span> <span class="mi">7</span>
+
+<span class="nb">puts</span> <span class="s2">&quot;Oh, that&#39;s why it&#39;s false.&quot;</span>
+
+<span class="nb">puts</span> <span class="s2">&quot;How about some more.&quot;</span>
+
+<span class="nb">puts</span> <span class="s2">&quot;Is it greater?&quot;</span><span class="p">,</span> <span class="mi">5</span> <span class="o">&gt;</span> <span class="mi">2</span>
+<span class="nb">puts</span> <span class="s2">&quot;Is it greater or equal?&quot;</span><span class="p">,</span> <span class="mi">5</span> <span class="o">&gt;=</span> <span class="o">-</span><span class="mi">2</span>
+<span class="nb">puts</span> <span class="s2">&quot;Is it less or equal?&quot;</span><span class="p">,</span> <span class="mi">5</span> <span class="o">&lt;=</span> <span class="o">-</span><span class="mi">2</span>
+
+<span class="nb">puts</span> <span class="s2">&quot;ex 4&quot;</span>
+
+<span class="n">cars</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="n">space_in_a_car</span> <span class="o">=</span> <span class="mi">4</span><span class="o">.</span><span class="mi">0</span>
+<span class="n">drivers</span> <span class="o">=</span> <span class="mi">30</span>
+<span class="n">passengers</span> <span class="o">=</span> <span class="mi">90</span>
+<span class="n">cars_not_driven</span> <span class="o">=</span> <span class="n">cars</span> <span class="o">-</span> <span class="n">drivers</span>
+<span class="n">cars_driven</span> <span class="o">=</span> <span class="n">drivers</span>
+<span class="n">carpool_capacity</span> <span class="o">=</span> <span class="n">cars_driven</span> <span class="o">+</span> <span class="n">space_in_a_car</span>
+<span class="n">average_passengers_per_car</span> <span class="o">=</span> <span class="n">passengers</span> <span class="o">/</span> <span class="n">cars_driven</span>
+
+<span class="nb">puts</span> <span class="s2">&quot;There are </span><span class="si">#{</span><span class="n">cars</span><span class="si">}</span><span class="s2"> cars available.&quot;</span>
+<span class="nb">puts</span> <span class="s2">&quot;There are only </span><span class="si">#{</span><span class="n">drivers</span><span class="si">}</span><span class="s2"> drivers available.&quot;</span>
+<span class="nb">puts</span> <span class="s2">&quot;There will be </span><span class="si">#{</span><span class="n">cars_not_driven</span><span class="si">}</span><span class="s2"> empty cars today.&quot;</span>
+<span class="nb">puts</span> <span class="s2">&quot;We can transport </span><span class="si">#{</span><span class="n">carpool_capacity</span><span class="si">}</span><span class="s2"> people today.&quot;</span>
+<span class="nb">puts</span> <span class="s2">&quot;We have </span><span class="si">#{</span><span class="n">passengers</span><span class="si">}</span><span class="s2"> passengers to carpool today.&quot;</span>
+<span class="nb">puts</span> <span class="s2">&quot;We need to put about </span><span class="si">#{</span><span class="n">average_passengers_per_car</span><span class="si">}</span><span class="s2"> in each car.&quot;</span>
+
+<span class="nb">puts</span> <span class="s2">&quot;ex 5&quot;</span>
+
+<span class="n">my_name</span> <span class="o">=</span> <span class="s1">&#39;Zed. A Shaw&#39;</span>
+<span class="n">my_age</span> <span class="o">=</span> <span class="mi">35</span>
+<span class="n">my_height</span> <span class="o">=</span> <span class="mi">74</span>
+<span class="n">my_weight</span> <span class="o">=</span> <span class="mi">180</span>
+<span class="n">my_eyes</span> <span class="o">=</span> <span class="s1">&#39;Blue&#39;</span>
+<span class="n">my_teeth</span> <span class="o">=</span> <span class="s1">&#39;White&#39;</span>
+<span class="n">my_hair</span> <span class="o">=</span> <span class="s1">&#39;Brown&#39;</span>
+
+<span class="nb">puts</span> <span class="s2">&quot;Let&#39;s talk about %s.&quot;</span> <span class="o">%</span> <span class="n">my_name</span>
+<span class="nb">puts</span> <span class="s2">&quot;He&#39;s %d inches tall.&quot;</span> <span class="o">%</span> <span class="n">my_height</span>
+<span class="nb">puts</span> <span class="s2">&quot;He&#39;s %d pounds heavy.&quot;</span> <span class="o">%</span> <span class="n">my_weight</span>
+<span class="nb">puts</span> <span class="s2">&quot;Actually that&#39;s not too heavy.&quot;</span>
+<span class="nb">puts</span> <span class="s2">&quot;He&#39;s got %s eyes and %s hair.&quot;</span> <span class="o">%</span> <span class="o">[</span><span class="n">my_eyes</span><span class="p">,</span> <span class="n">my_hair</span><span class="o">]</span>
+<span class="nb">puts</span> <span class="s2">&quot;His teeth are usually %s depending on the coffee.&quot;</span> <span class="o">%</span> <span class="n">my_teeth</span>
+
+<span class="nb">puts</span> <span class="s2">&quot;If I add %d, %d, and %d I get %d.&quot;</span> <span class="o">%</span> <span class="o">[</span> <span class="n">my_age</span><span class="p">,</span> <span class="n">my_height</span><span class="p">,</span> <span class="n">my_weight</span><span class="p">,</span> <span class="n">my_age</span> <span class="o">+</span> <span class="n">my_height</span> <span class="o">+</span> <span class="n">my_weight</span> <span class="o">]</span>
+</pre></div>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Learn Ruby the Hard Way | Alex Shook]]></title>
   <link href="http://alexshook.com/blog/categories/learn-ruby-the-hard-way/atom.xml" rel="self"/>
   <link href="http://alexshook.com/"/>
-  <updated>2016-01-07T20:28:33-05:00</updated>
+  <updated>2016-02-22T23:52:50-05:00</updated>
   <id>http://alexshook.com/</id>
   <author>
     <name><![CDATA[Alex Shook]]></name>
@@ -12,6 +12,41 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Learn Ruby the Hard Way Ex. 6]]></title>
+    <link href="http://alexshook.com/blog/learn-ruby-ex-6/"/>
+    <updated>2016-02-22T23:35:19-05:00</updated>
+    <id>http://alexshook.com/blog/learn-ruby-ex-6</id>
+    <content type="html"><![CDATA[<p>Totally not getting through <a href="http://learnrubythehardway.org/book/">Learn Ruby the Hard Way</a> with any kind of efficiency. I&rsquo;ve thought about skipping up to exercise 45 a million times, but that would be cheating.</p>
+
+<pre><code class="ruby">puts "ex 6"
+
+types_of_people = 10
+x = "There are #{types_of_people} types of people."
+binary = "binary"
+do_not = "don't"
+y = "Those who know #{binary} and those who #{do_not}"
+
+puts x
+puts y
+
+puts "I said: #{x}."
+puts "I also said: '#{y}'."
+
+hilarious = false
+joke_evaluation = "Isn't that joke so funny? #{hilarious}"
+
+puts joke_evaluation
+
+w = "This is the left side of..."
+
+e = "a string with a right side."
+
+puts w + e
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Learn Ruby the Hard Way Ex. 1-5]]></title>
