@@ -10,7 +10,7 @@
 <meta charset="utf-8">
 <meta http-equiv="cleartype" content="on">
 
-<title>You Can&#8217;t Call .checked on a jQuery Object - Alex Shook</title>
+<title>Learn Ruby the Hard Way Ex. 6 - Alex Shook</title>
 <meta name="author" content="Alex Shook">
 
 
@@ -18,7 +18,7 @@
 
 <meta name="description" content="Code and other things.">
 
-<meta name="keywords" content="javascript ">
+<meta name="keywords" content="learn ruby the hard way ruby ">
 
 
 <!-- http://t.co/dKP3o1e -->
@@ -32,7 +32,7 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:image" content"">
   
-  <meta name="twitter:title" content="You Can't Call .checked On a jQuery Object">
+  <meta name="twitter:title" content="Learn Ruby the Hard Way Ex. 6">
   <meta name="twitter:description" content="Code and other things.">
   <meta name="twitter:creator" content="@alexshook">
 
@@ -40,15 +40,15 @@
 <!-- Open Graph -->
 <meta property="og:local" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:url" content="http://alexshook.com/blog/cant-call-checked-on-jquery-objects">
-<meta property="og:title" content="You Can't Call .checked On a jQuery Object">
+<meta property="og:url" content="http://alexshook.com/blog/learn-ruby-ex-6">
+<meta property="og:title" content="Learn Ruby the Hard Way Ex. 6">
 <meta property="og:description" content="Code and other things.">
 
   <meta property="og:image" content="">
 
 <meta property="og:site_name" content="Alex Shook">
 
-<link rel="canonical" href="http://alexshook.com/blog/cant-call-checked-on-jquery-objects">
+<link rel="canonical" href="http://alexshook.com/blog/learn-ruby-ex-6">
 <link href="/favicon.png" rel="icon">
 <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
@@ -111,8 +111,8 @@
     <header class="header-title">
       <div class="header-title-wrap">
         
-          <h1 class="entry-title"><a href="/blog/cant-call-checked-on-jquery-objects/" rel="bookmark" title="You Can't Call .checked On a jQuery Object">You Can&#8217;t Call .checked On a jQuery Object</a></h1>
-          <h2>March 31, 2015</h2>
+          <h1 class="entry-title"><a href="/blog/learn-ruby-ex-6/" rel="bookmark" title="Learn Ruby the Hard Way Ex. 6">Learn Ruby the Hard Way Ex. 6</a></h1>
+          <h2>February 22, 2016</h2>
           <ul class="main-navbar">
   <li><a href="/">Home</a></li>
   <li><a href="/projects">Projects</a></li>
@@ -126,19 +126,62 @@
       </div><!-- /.header-title-wrap -->
     </header>
     <div class="entry-content">
-      <p>Is the <code>.checked</code> property not working for you? It could be because you are using a jQuery object. You can&rsquo;t call <code>.checked</code> on a jQuery object.</p>
+      <p>Totally not getting through <a href="http://learnrubythehardway.org/book/">Learn Ruby the Hard Way</a> with any kind of efficiency. I&rsquo;ve thought about skipping up to exercise 45 a million times, but that would be cheating.</p>
 
-<p>Well, you can.</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">puts</span> <span class="s2">&quot;ex 6&quot;</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">types_of_people</span> <span class="o">=</span> <span class="mi">10</span>
+</span><span class='line'><span class="n">x</span> <span class="o">=</span> <span class="s2">&quot;There are </span><span class="si">#{</span><span class="n">types_of_people</span><span class="si">}</span><span class="s2"> types of people.&quot;</span>
+</span><span class='line'><span class="n">binary</span> <span class="o">=</span> <span class="s2">&quot;binary&quot;</span>
+</span><span class='line'><span class="n">do_not</span> <span class="o">=</span> <span class="s2">&quot;don&#39;t&quot;</span>
+</span><span class='line'><span class="n">y</span> <span class="o">=</span> <span class="s2">&quot;Those who know </span><span class="si">#{</span><span class="n">binary</span><span class="si">}</span><span class="s2"> and those who </span><span class="si">#{</span><span class="n">do_not</span><span class="si">}</span><span class="s2">&quot;</span>
+</span><span class='line'>
+</span><span class='line'><span class="nb">puts</span> <span class="n">x</span>
+</span><span class='line'><span class="nb">puts</span> <span class="n">y</span>
+</span><span class='line'>
+</span><span class='line'><span class="nb">puts</span> <span class="s2">&quot;I said: </span><span class="si">#{</span><span class="n">x</span><span class="si">}</span><span class="s2">.&quot;</span>
+</span><span class='line'><span class="nb">puts</span> <span class="s2">&quot;I also said: &#39;</span><span class="si">#{</span><span class="n">y</span><span class="si">}</span><span class="s2">&#39;.&quot;</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">hilarious</span> <span class="o">=</span> <span class="kp">false</span>
+</span><span class='line'><span class="n">joke_evaluation</span> <span class="o">=</span> <span class="s2">&quot;Isn&#39;t that joke so funny? </span><span class="si">#{</span><span class="n">hilarious</span><span class="si">}</span><span class="s2">&quot;</span>
+</span><span class='line'>
+</span><span class='line'><span class="nb">puts</span> <span class="n">joke_evaluation</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">w</span> <span class="o">=</span> <span class="s2">&quot;This is the left side of...&quot;</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">e</span> <span class="o">=</span> <span class="s2">&quot;a string with a right side.&quot;</span>
+</span><span class='line'>
+</span><span class='line'><span class="nb">puts</span> <span class="n">w</span> <span class="o">+</span> <span class="n">e</span>
+</span></code></pre></td></tr></table></div></figure>
 
-<p>But if you do, you will lose 25 mintues to thinking that you must have a typo somewhere, and/or that you are just doing it wrong. And at the end of the 25 minutes, you will discover that you have two options: (1) use plain old vanilla JavaScript, or (2) use jQuery&rsquo;s <code>.get()</code> to retrieve the actual DOM object.</p>
-
-<p>Thank the JavaScript deities for other programmers. After 25 minutes of thinking that I was taking crazy pills, <a href="http://stackoverflow.com/questions/3334935/checked-true-not-working-with-jquery-function" target="_blank">this Stack Overflow question</a> ended up saving me.</p>
-
-<p>I knew this newfangled jQuery library was going to be trouble right from the start&hellip;</p>
 
       <footer class="entry-meta">
-        <span class="entry-tags"><a href="/categories/#javascript" title="Pages tagged javascript" class="tag">javascript</a></span>
-        <span><a href="/blog/cant-call-checked-on-jquery-objects/" rel="bookmark" title="You Can't Call .checked On a jQuery Object">You Can&#8217;t Call .checked On a jQuery Object</a> was published on <span class="entry-date date published updated"><time datetime="2015-03-31T22:46:07-04:00">March 31, 2015</time></span></span>
+        <span class="entry-tags"><a href="/categories/#learn ruby the hard way" title="Pages tagged learn ruby the hard way" class="tag">learn ruby the hard way</a><a href="/categories/#ruby" title="Pages tagged ruby" class="tag">ruby</a></span>
+        <span><a href="/blog/learn-ruby-ex-6/" rel="bookmark" title="Learn Ruby the Hard Way Ex. 6">Learn Ruby the Hard Way Ex. 6</a> was published on <span class="entry-date date published updated"><time datetime="2016-02-22T23:35:19-05:00">February 22, 2016</time></span></span>
         
         <span class="author vcard"><span class="fn"><a href="" title="About Alex Shook">Alex Shook</a></span></span>
         
@@ -148,23 +191,23 @@
       <div class="read-more">
         
           <div class="read-more-header">
-            <a href="/blog/learn-ruby-ex-6/" class="btn">Read More</a>
+            <a href="/blog/learn-ruby-ex-1-5/" class="btn">Read More</a>
           </div><!-- /.read-more-header -->
           <div class="read-more-content">
-            <h3><a href="/blog/learn-ruby-ex-6/" title="Learn Ruby the Hard Way Ex. 6">Learn Ruby the Hard Way Ex. 6</a></h3>
-            <p>Totally not getting through [Learn Ruby the Hard Way](http://learnrubythehardway.org/book/) with any kind of efficiency. I&#8217;ve thought about &hellip;&hellip; <a href="/blog/learn-ruby-ex-6/"> Continue reading</a></p>
+            <h3><a href="/blog/learn-ruby-ex-1-5/" title="Learn Ruby the Hard Way Ex. 1-5">Learn Ruby the Hard Way Ex. 1-5</a></h3>
+            <p>Remember when I said I was going to do the entire Learn Ruby the Hard Way again? I got up to like exercise 18… and then forgot about it.I’m &hellip;&hellip; <a href="/blog/learn-ruby-ex-1-5/"> Continue reading</a></p>
           </div><!-- /.read-more-content -->
         
         <div class="read-more-list">
           
             <div class="list-item">
-              <h4><a href="/blog/learn-ruby-ex-1-5/" title="Learn Ruby the Hard Way Ex. 1-5">Learn Ruby the Hard Way Ex. 1-5</a></h4>
-              <span>Published on January 07, 2016</span>
+              <h4><a href="/blog/jquery-objects-plus-native-dom-objects/" title="jQuery Objects + Native DOM Objects">jQuery Objects + Native DOM Objects</a></h4>
+              <span>Published on June 22, 2015</span>
             </div><!-- /.list-item -->
           
             <div class="list-item">
-              <h4><a href="/blog/jquery-objects-plus-native-dom-objects/" title="jQuery Objects + Native DOM Objects">jQuery Objects + Native DOM Objects</a></h4>
-              <span>Published on June 22, 2015</span>
+              <h4><a href="/blog/learn-ruby-the-hard-way-again/" title="Learn Ruby the Hard Way (Again)">Learn Ruby the Hard Way (Again)</a></h4>
+              <span>Published on April 29, 2015</span>
             </div><!-- /.list-item -->
           
         </div><!-- /.read-more-list -->
@@ -208,8 +251,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://alexshook.com/blog/cant-call-checked-on-jquery-objects/';
-        var disqus_url = 'http://alexshook.com/blog/cant-call-checked-on-jquery-objects/';
+        var disqus_identifier = 'http://alexshook.com/blog/learn-ruby-ex-6/';
+        var disqus_url = 'http://alexshook.com/blog/learn-ruby-ex-6/';
         var disqus_script = 'embed.js';
       
     (function () {
